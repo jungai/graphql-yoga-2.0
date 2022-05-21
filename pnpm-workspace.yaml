@@ -2,4 +2,4 @@ packages:
   - "apps"
   - "local_server"
   - "libs/*"
-  - iac
+  - "iac"
