@@ -1,4 +1,4 @@
-import { getArtists } from "./artist";
+import { getArtists } from "../models/artist";
 
 export const query = {
   Query: {
