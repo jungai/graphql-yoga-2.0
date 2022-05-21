@@ -12,7 +12,7 @@ const setupCors = (e: Express): Express => {
 const setupGqlServer = (e: Express): Express => {
   // create server
   const graphQLServer = createServer({
-    context: createContext(),
+    context: createContext,
     schema: {
       typeDefs: schema,
       resolvers: {
