@@ -28,6 +28,9 @@ importers:
       '@types/node': 17.0.35
       typescript: 4.6.4
 
+  iac:
+    specifiers: {}
+
   libs/database:
     specifiers:
       '@types/node': ^17.0.35
@@ -39,6 +42,9 @@ importers:
       prisma: 3.14.0
       ts-node: 10.7.0_41d1a55f6f77a300c723819e22d6c86b
       typescript: 4.6.4
+
+  libs/validator:
+    specifiers: {}
 
   local_server:
     specifiers:
